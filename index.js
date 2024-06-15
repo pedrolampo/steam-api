@@ -8,7 +8,7 @@ const games = [];
 
 // Cors configuration - Allows requests from localhost:4200
 const corsOptions = {
-  origin: ['*', 'http://localhost:3000'],
+  origin: ['http://localhost:3000', 'https://peter-steam-redesign.vercel.app/'],
   optionsSuccessStatus: 204,
   methods: 'GET, POST, PUT, DELETE',
 };
